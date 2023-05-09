@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.title {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.container-box {
+  height: 400px;
+  width: 300px;
+  background-color: gainsboro;
+  border: 2px solid black;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.output-screen {
+  width: 92%;
+  margin: auto;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5px;
+  text-align: right;
+  font-size: 30px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.input-buttons {
+  width: 94%;
+  height: 72%;
+  margin: auto;
+  overflow: hidden;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.same-class {
+  width: 55px;
+  padding: 14px 18px;
+  margin: 4px;
+  font-size: 25px;
+}
